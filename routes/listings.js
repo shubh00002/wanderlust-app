@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const wrapAsync = require("../views/utils/wrapAsync");
+const wrapAsync = require("../utils/wrapAsync");
+
 const Listing = require("../models/listing");
 const multer = require("multer");
 const { storage } = require("../cloudConfig.js");
